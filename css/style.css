@@ -1614,6 +1614,95 @@ footer .list-footer li a {
   }
 }
 
+/* Style untuk masing-masing kolom pricing */
+.pricing-ferisp-column {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-ferisp-column:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-ferisp-column img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.pricing-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.pricing-tag {
+  background-color: #ff6347;
+  color: white;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.ferisp-price {
+  font-size: 1.5rem;
+  color: #1e90ff;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.service-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-info ul li {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.service-info ul li i {
+  color: #1e90ff;
+  margin-right: 0.5rem;
+}
+
+.ferisp-order-btn {
+  display: inline-block;
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.ferisp-order-btn:hover {
+  background-color: #ff6347;
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-ferisp-column {
+    max-width: 100%;
+  }
+}
+
 
 /* Rain Css Start -- */
 
