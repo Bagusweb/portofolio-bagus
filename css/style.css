@@ -1613,6 +1613,23 @@ footer .list-footer li a {
     padding: 0;
   }
 }
+
+/* Style untuk heading */
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.heading i {
+  color: #ff6347; /* Warna icon */
+}
+
+.heading span {
+  color: #1e90ff; /* Warna teks span */
+}
+
 /* Style untuk pricing section */
 .pricing-section {
   display: flex;
@@ -1717,7 +1734,6 @@ footer .list-footer li a {
     max-width: 100%;
   }
 }
-
 
 /* Rain Css Start -- */
 
@@ -2022,7 +2038,3 @@ footer .list-footer li a {
 .rain:nth-of-type(150) { animation-name: rain-150; animation-delay: 1s; animation-duration: 7s; animation-iteration-count: infinite; left: 32%; opacity: 0.6; top: -80%; } 
 @keyframes rain-150 { from { left: 32%; opacity: 0.6; top: -80%; } to { opacity: 0; top: 120%; } }
 /* Rain Css End -- */
-
-
-
-
