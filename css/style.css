@@ -1613,6 +1613,21 @@ footer .list-footer li a {
     padding: 0;
   }
 }
+/* Style untuk pricing section */
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+}
+
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
 
 /* Style untuk masing-masing kolom pricing */
 .pricing-ferisp-column {
